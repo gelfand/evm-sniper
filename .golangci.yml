@@ -1,0 +1,18 @@
+linters:
+  enable-all: true
+  disable:
+    - varnamelen
+    - interfacer
+    - golint
+    - scopelint
+    - maligned
+    - gomnd
+    - gochecknoglobals
+    - wsl
+    - gci
+    - nlreturn
+    - lll
+    - godox
+    - godot
+run:
+  allow-parallel-runners: true 

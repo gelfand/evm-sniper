@@ -1,0 +1,8 @@
+deploy
+staticcall
+contracts/main2.yul
+contracts/main.yul.old
+contracts/main.yul
+build
+pprof.*
+cpuprofile
